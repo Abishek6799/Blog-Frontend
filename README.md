@@ -17,9 +17,9 @@ This project contains the frontend for a blog website built with React.js. It al
 * **Blog Creation:**
     * Users can create new blog posts with titles,description and image.
 * **Role-Based Access Control:** 
-    *Ensures users and administrators have distinct permissions.
+    * Ensures users and administrators have distinct permissions.
 * **Blog Approval Workflow:** 
-    *Blogs created by users are only published upon admin approval.information between parties as JSON objects. 
+    * Blogs created by users are only published upon admin approval.information between parties as JSON objects. 
 * **Status Notifications:**
     * Display notifications to the user regarding the status of their submitted blogs (e.g., "Blog submitted for approval", "Blog approved and published", "Blog rejected").
 * **Error Handling:**
