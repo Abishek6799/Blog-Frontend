@@ -1,15 +1,15 @@
 # Blog Website with Admin Approval System
 
-**Description:**
+## Description:
 This project contains the frontend for a blog website built with React.js. It allows users to register, login, and create blogs.
 
-**Key Concepts:**
+## Key Concepts:
 
 * **User Authentication:**
     * Secure user registration and login.
     * User role-based access control (admin and user).
 
-**Features:**
+## Features:
 
 * **User Registration & Login:**
     * Users can register with their email and password.
@@ -27,7 +27,7 @@ This project contains the frontend for a blog website built with React.js. It al
 * **Responsive Design:**
     * The website should be responsive and adapt to different screen sizes.
 
-**Technologies Used:**
+## Technologies Used:
 
 * **Frontend:**
     * React.js
