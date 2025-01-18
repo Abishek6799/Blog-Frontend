@@ -1,8 +1,36 @@
-# React + Vite
+# Blog Website with Admin Approval System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Description:**
+This project contains the frontend for a blog website built with React.js. It allows users to register, login, and create blogs.
 
-Currently, two official plugins are available:
+**Key Concepts:**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **User Authentication:**
+    * Secure user registration and login.
+    * User role-based access control (admin and user).
+
+**Features:**
+
+* **User Registration & Login:**
+    * Users can register with their email and password.
+    * Users can log in to their accounts.
+* **Blog Creation:**
+    * Users can create new blog posts with titles,description and image.
+* **Role-Based Access Control:** 
+    *Ensures users and administrators have distinct permissions.
+* **Blog Approval Workflow:** 
+    *Blogs created by users are only published upon admin approval.information between parties as JSON objects. 
+* **Status Notifications:**
+    * Display notifications to the user regarding the status of their submitted blogs (e.g., "Blog submitted for approval", "Blog approved and published", "Blog rejected").
+* **Error Handling:**
+    * Display appropriate error messages for invalid inputs or server-side issues.
+* **Responsive Design:**
+    * The website should be responsive and adapt to different screen sizes.
+
+**Technologies Used:**
+
+* **Frontend:**
+    * React.js
+    * JavaScript
+    * TailwindCss
+    * Axios (for making API requests)
